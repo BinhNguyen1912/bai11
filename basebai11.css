@@ -1,0 +1,70 @@
+/* base */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+:root{
+    --color-one:#F7D9C4;
+    --color-text:#777777;
+    --color-two:#EFEFEF;
+    --color-three:#31363B;
+    --color-bg:#DCE8EB;
+
+    --font:'DM Sans', sans-serif;
+}
+body{
+    font-family: var(--font);
+   
+
+}
+.button{
+    padding:15px 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    background: var(--color-one);
+    display: inline-block;
+}
+.container{
+    width:100%;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+a:hover{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+@media (max-width : 1200px){
+    .container{
+        max-width : 960px;
+    }
+}
+@media (max-width : 992px){
+    .container{
+        max-width : 720px;
+    }
+}
+@media (max-width : 768px){
+    .container{
+        max-width : 540px;
+    }
+}
+@media (max-width : 576px){
+    .container{
+        max-width : 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+/* base end */
+
